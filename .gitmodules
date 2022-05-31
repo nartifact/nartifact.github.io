@@ -1,0 +1,3 @@
+[submodule "themes/Element"]
+	path = themes/Element
+	url = https://github.com/nartifact/hexo-theme-element.git
