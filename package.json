@@ -25,7 +25,7 @@
     "hexo-pagination": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-scss": "git+https://github.com/recursively/hexo-renderer-scss.git",
+    "hexo-renderer-scss": "github:nartifact/hexo-renderer-scss.git",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
