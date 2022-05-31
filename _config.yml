@@ -103,4 +103,7 @@ theme: Element
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://nartifact@github.com/nartifact/nartifact.git
+  branch: master
+  message: "CI build"
