@@ -6,7 +6,7 @@ photos:
     - "dirTest/topPicPre.png"
 ---
 
-<img src="topPicPre.png" width="100%" height="100%">
+<img src="topPicPre.jpeg" width="100%" height="100%">
 
 
 Let's rich!
