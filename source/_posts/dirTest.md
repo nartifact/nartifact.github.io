@@ -9,4 +9,4 @@ photos:
 <img src="topPicPre.png" width="100%" height="100%">
 
 
-I'm gonna be rich in the future!
+Let's rich!
