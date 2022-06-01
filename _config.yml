@@ -105,5 +105,6 @@ theme: Element
 deploy:
   type: 'git'
   repo: git@github.com:nartifact/nartifact.github.io.git
+    #repo: https://github.com/nartifact/nartifact.github.io.git
   branch: master
   message: "CI build"
