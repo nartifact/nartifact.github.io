@@ -26,10 +26,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout
+      - name: Checkout github repo
         uses: actions/checkout@v3
         with:
           ref: hexo
+          lfs: true
+      
+      - name: Checkout LFS objects
+        run: git lfs checkout
 
       - name: Checkout theme repo
         uses: actions/checkout@v3
@@ -78,7 +82,6 @@ jobs:
         run: |
           npm install hexo-cli -g
           npm install
-          ls node_modules/
 
       - name: Hexo deploy
         run: |
