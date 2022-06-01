@@ -57,9 +57,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: node_modules
-          key: ${{ runner.OS }}-npm-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-npm-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.OS }}-npm-${{ hashFiles('**/package-lock.json') }}
+          # restore-keys: |
+          #   ${{ runner.OS }}-npm-${{ hashFiles('**/package-lock.json') }}
 
       # SSH key
       - name: Add ssh private key
@@ -78,6 +78,7 @@ jobs:
         run: |
           npm install hexo-cli -g
           npm install
+          ls node_modules/
 
       - name: Hexo deploy
         run: |
