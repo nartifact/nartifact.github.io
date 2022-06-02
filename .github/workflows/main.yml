@@ -47,10 +47,14 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_ENGINE_ID: ${{ secrets.GOOGLE_ENGINE_ID }}
           GOOGLE_TRACKING_ID: ${{ secrets.TRACKING_ID }}
+          BAIDU_SITEMAP_ID: ${{ secrets.BAIDU_SITEMAP_ID }}
+          BAIDU_TRACKING_ID: ${{ secrets.BAIDU_TRACKING_ID }}
         run: |
           sed -i "s/googleApiKey/$GOOGLE_API_KEY/g" themes/Element/_config.yml
           sed -i "s/googleEngineId/$GOOGLE_ENGINE_ID/g" themes/Element/_config.yml
           sed -i "s/trackingID/$GOOGLE_TRACKING_ID/g" themes/Element/_config.yml
+          sed -i "s/baiduSitemapID/$BAIDU_SITEMAP_ID/g" themes/Element/_config.yml
+          sed -i "s/baiduTrackingID/$BAIDU_TRACKING_ID/g" themes/Element/_config.yml
 
       # Node env setup
       - name: Use node 18
