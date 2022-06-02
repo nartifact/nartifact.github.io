@@ -212,7 +212,7 @@ date: 2022-06-02 12:15:52
 <span class="orange">&lt;html&gt;</span>
     <span class="orange">&lt;style&gt;</span>
    * {
-		                <span class="green">everything</span>:<span class="blue">awesome</span>;
+		                <span class="green">everything</span>:<a href="/"><span class="blue">awesome</span></a>;
 }
      <span class="orange">&lt;/style&gt;</span>
  <span class="orange">&lt;body&gt;</span> 
@@ -221,7 +221,7 @@ date: 2022-06-02 12:15:52
                                 <span class="comment">&lt;!--The file you are looking for, 
                                         is not where you think it is.--&gt;
  <span class="orange">&nbsp;&lt;/body&gt;</span>
-<span class="orange">&lt;/html&gt;</span>
+ <span class="orange">&lt;/html&gt;</span>
 		</span>
  <span class="orange"></span>   
 </div>
