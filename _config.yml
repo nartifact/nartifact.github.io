@@ -108,4 +108,5 @@ deploy:
   repo: git@github.com:nartifact/nartifact.github.io.git
     #repo: https://github.com/nartifact/nartifact.github.io.git
   branch: master
+  ignore_hidden: false
   message: "CI build"
