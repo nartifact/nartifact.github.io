@@ -98,5 +98,5 @@ jobs:
       - name: Hexo deploy
         run: |
           npm run clean
-          hexo algolia
+          # hexo algolia
           npm run deploy
