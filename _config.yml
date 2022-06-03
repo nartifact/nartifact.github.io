@@ -101,12 +101,28 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: Element
 
+algolia:
+  appId: "6V5SMRF05M"
+  apiKey: "2b2a71475f57312c7a1281ca8e83c117"
+  adminApiKey: "algoliaAdminApiKey"
+  chunkSize: 5000
+  indexName: "nartifact"
+  fields:
+    - content:strip:truncate,0,4500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
   repo: git@github.com:nartifact/nartifact.github.io.git
-    #repo: https://github.com/nartifact/nartifact.github.io.git
+  # repo: https://github.com/nartifact/nartifact.github.io.git
   branch: master
   ignore_hidden: false
   message: "CI build"
