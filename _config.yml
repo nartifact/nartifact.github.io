@@ -101,6 +101,19 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: Element
 
+AzureSearch:
+  serviceURL: "https://nartifact-search.search.windows.net"
+  indexName: "nartifact"
+  adminKey: "azureSearchAdminKey"
+  excerptLimit: 200
+  analyzer: "" # optional
+  fields:
+    - title
+    - excerpt:strip
+    - content:strip
+    - path
+    - permalink
+
 algolia:
   appId: "6V5SMRF05M"
   apiKey: "2b2a71475f57312c7a1281ca8e83c117"

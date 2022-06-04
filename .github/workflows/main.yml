@@ -37,9 +37,11 @@ jobs:
 
       - name: Modify general configuration
         env:
-          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+          # ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+          AZURE_SEARCH_ADMIN_KEY: ${{ secrets.AZURE_SEARCH_ADMIN_KEY }}
         run: |
-          sed -i "s/algoliaAdminApiKey/$ALGOLIA_ADMIN_API_KEY/g" _config.yml
+          sed -i "s/algoliaAdminApiKey/$ALGOLIA_ADMIN_API_KEY/g" _config.
+          sed -i "s/azureSearchAdminKey/$AZURE_SEARCH_ADMIN_KEY/g" _config.
 
       - name: Checkout theme repo
         uses: actions/checkout@v3
