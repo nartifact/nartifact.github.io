@@ -26,12 +26,12 @@ date: 2022-06-02 12:15:52
     font-family: 'Gilda Display', serif;
     text-align: center;
     width: 100%;
-    height: 1800px;
+    height: auto;
     margin: auto;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 20%;
     bottom: 0;
-    left: -1200px;
+    /* left: -550px; */
     right: 0;
     -webkit-animation: noise-3 1s linear infinite;
             animation: noise-3 1s linear infinite;
@@ -40,7 +40,7 @@ date: 2022-06-02 12:15:52
     body:after {
     content: 'error 404';
     font-family: OCR-A;
-    font-size: 100px;
+    font-size: 3.75vw;
     text-align: center;
     width: 550px;
     margin: auto;
@@ -57,7 +57,7 @@ date: 2022-06-02 12:15:52
     body:before {
     content: 'error 404';
     font-family: OCR-A;
-    font-size: 100px;
+    font-size: 3.75vw;
     text-align: center;
     width: 550px;
     margin: auto;
@@ -87,7 +87,7 @@ date: 2022-06-02 12:15:52
     .info:before {
     content: 'file not found';
     font-family: OCR-A;
-    font-size: 100px;
+    font-size: 3.75vw;
     text-align: center;
     width: 1400px; 
     margin: auto;
@@ -104,7 +104,7 @@ date: 2022-06-02 12:15:52
     .info:after {
     content: 'file not found';
     font-family: OCR-A;
-    font-size: 100px;
+    font-size: 3.75vw;
     text-align: center;
     width: 1400px;
     margin: auto;
@@ -168,14 +168,14 @@ date: 2022-06-02 12:15:52
     }
     .wrap {
     top: 30%;
-    left: 25%;
+    left: -12%;
     height: 200px;
     margin-top: -100px;
-    position: absolute;
+    position: relative;
     }
     code {
     color: white;
-    font-size: 50;
+    font-size: 3.75vh;
     }
     span.blue {
     color: #48beef;
