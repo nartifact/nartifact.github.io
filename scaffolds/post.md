@@ -3,5 +3,5 @@ title: {{ title }}
 date: {{ date }}
 tags:
 photos:
-    - "{{ title }}/.png"
+    - \"{{ title }}/pic_1.jpg\"
 ---
