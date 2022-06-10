@@ -106,7 +106,7 @@ AzureSearch:
   indexName: "nartifact"
   adminKey: "azureSearchAdminKey"
   excerptLimit: 200
-  analyzer: "" # optional
+  analyzer: "zh-Hans.lucene" # optional
   fields:
     - title
     - excerpt:strip
